@@ -1,35 +1,47 @@
 
-  # ReadMe
+  # README generator
 
   ## Description
-  node homework
+  This app prompts a user to answer questions about a project and returns a README file
 
   ## Table of Contents
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contributing](#contributing)
-  *[Tests](#tests)
-  *[Questions](#questions)
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [License](#license)
+
+  * [Contributing](#contributing)
+
+  * [Tests](#tests)
+
+  * [Questions](#questions)
 
 
-  ##Installation
-  type node index.js in command line
+  ## Installation
+
+  install npm then run node index.js
   
-  ##Usage
-  go here and do this
+  ## Usage
 
-  ##License
-  This application is covered under the MIT license.
-  
-  ##Contributing
-  none
-  
-  ##Tests  
-  run tests
+  type node index.js in command line and follow the prompts
 
-  ##Questions
-  If you have any questions, please contact amiracat at amiraholden@gmail.com.
+  ## License
+
+  This application is covered under the None license.
+  
+  ## Contributing
+
+  None
+  
+  ## Tests  
+
+  Run tests
+
+  ## Questions
+
+  If you have any questions, please contact amiracat at amira@a.com.
 
   Thank you.
   

@@ -19,30 +19,42 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contributing](#contributing)
-  *[Tests](#tests)
-  *[Questions](#questions)
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [License](#license)
+
+  * [Contributing](#contributing)
+
+  * [Tests](#tests)
+
+  * [Questions](#questions)
 
 
-  ##Installation
+  ## Installation
+
   ${data.installation}
   
-  ##Usage
+  ## Usage
+
   ${data.usage}
 
-  ##License
+  ## License
+
   This application is covered under the ${data.license} license.
   
-  ##Contributing
+  ## Contributing
+
   ${data.credits}
   
-  ##Tests  
+  ## Tests  
+
   ${data.tests}
 
-  ##Questions
+  ## Questions
+
   If you have any questions, please contact ${data.github} at ${data.email}.
 
   Thank you.
@@ -50,4 +62,3 @@ function generateMarkdown(data) {
 };
 
 module.exports = generateMarkdown;
-//export default generateMarkdown;
