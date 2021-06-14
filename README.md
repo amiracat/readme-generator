@@ -1,8 +1,9 @@
 
-  # README generator
+  # Amira
 
   ## Description
-  This app prompts a user to answer questions about a project and returns a README file
+  Coding
+  ![](https://img.shields.io/badge/undefined.svg)
 
   ## Table of Contents
 
@@ -21,27 +22,27 @@
 
   ## Installation
 
-  install npm then run node index.js
+  Use brain
   
   ## Usage
 
-  type node index.js in command line and follow the prompts
+  Heavily use brain
 
   ## License
 
-  This application is covered under the None license.
+  This application is covered under the MIT license.
   
   ## Contributing
 
-  None
+  all loved ones
   
   ## Tests  
 
-  Run tests
+  So much
 
   ## Questions
 
-  If you have any questions, please contact amiracat at amira@a.com.
+  If you have any questions, please contact amiracat at amira@amira.com.
 
   Thank you.
   

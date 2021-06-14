@@ -4,7 +4,28 @@ function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (data.license === "MIT") {
+    data.badge = `License-MIT-yellow`
+  } else if 
+    (data.license === "Apache") {
+      data.badge = `License-Apache%202.0-blue`
+    }
+   else {
+    data.badge = `License-ISC-blue`
+  };
+};
+
+
+// MIT: 
+//"https://img.shields.io/badge/License-MIT-yellow.svg"
+//GNU GPL: 
+//"https://img.shields.io/badge/License-GPLv3-blue.svg"
+// ISC: 
+//"https://img.shields.io/badge/License-ISC-blue.svg"
+// Apache 2.0: 
+//"https://img.shields.io/badge/License-Apache%202.0-blue.svg"
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -17,6 +38,7 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
+  ![](https://img.shields.io/badge/${data.badge}.svg)
 
   ## Table of Contents
 
