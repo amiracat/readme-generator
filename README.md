@@ -3,7 +3,8 @@
 
   ## Description
   sleeping cat makes working difficult
-  ![badge](undefined)
+  
+  ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Table of Contents
 
