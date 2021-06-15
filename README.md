@@ -2,9 +2,9 @@
   # README Generator
 
   ## Description
-  This app uses Node.js to prompt a user to answer questions and then creates a README.md file
+  A tool using Node.js to prompt users to answer questions and creates a README.md file.
 
-  ![badge](https://img.shields.io/badge/License-ISC-blue.svg)
+  ![badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## Table of Contents
 
@@ -23,18 +23,18 @@
 
   ## Installation
 
-  Clone repo, install npm
+  copy the repo and install npm
   
   ## Usage
 
-  type node index.js into command line
+  run node index.js
 
   ## License
-  License used: ISC.
+  License used: MIT.
   
   ## Contributing
 
-  None
+  none
   
   ## Tests  
 
