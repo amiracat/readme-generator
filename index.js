@@ -71,21 +71,10 @@ inquirer
     });
   });
 
-// const init = () => {
-//   promptUser()
-//     .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
-//     .then(() => console.log('Successfully created README.md'))
-//     .catch((err) => console.error(err));
-// };
-
 // initialize app
 function init() {
-  // prompt(questions).then(answers => {
-  //   const response = generateMarkdown(answers); 
-  //   console.log(answers);
-  // });
+ 
 };
-
 
 // // Function call to initialize app
 init();

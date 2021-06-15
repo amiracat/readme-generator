@@ -2,7 +2,7 @@
   # README Generator
 
   ## Description
-  A node.js application that uses command line prompts to create a professional README.md file for any project.
+  This app uses Node.js to prompt a user to answer questions and then creates a README.md file
 
   ![badge](https://img.shields.io/badge/License-ISC-blue.svg)
 
@@ -23,11 +23,11 @@
 
   ## Installation
 
-  clone this repository, then install npm 
+  Clone repo, install npm
   
   ## Usage
 
-  in the command line, use node index.js
+  type node index.js into command line
 
   ## License
   License used: ISC.
@@ -38,7 +38,7 @@
   
   ## Tests  
 
-  npm run tests
+  npm run test
 
   ## Questions
 
