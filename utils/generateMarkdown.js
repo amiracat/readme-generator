@@ -52,7 +52,7 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
-  ![](${data.badge})
+  ![badge](${data.badge})
 
   ## Table of Contents
 
@@ -78,8 +78,9 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-
-  This application is covered under the ${data.license} license.
+//   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+// <br />
+  This application is covered under the ${data.license}.
   
   ## Contributing
 
@@ -98,6 +99,6 @@ function generateMarkdown(data) {
 };
 
 //renderLicenseBadge();
-renderLicenseLink(license);
+//renderLicenseLink(data.license);
 
 module.exports = generateMarkdown;

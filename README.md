@@ -1,9 +1,9 @@
 
-  # RMG
+  # Coco Generator
 
   ## Description
-  RMG command line amazing tool
-  ![](undefined)
+  sleeping cat makes working difficult
+  ![badge](undefined)
 
   ## Table of Contents
 
@@ -22,27 +22,28 @@
 
   ## Installation
 
-  clone repo, type node index.js
+  remove cat from lap to have better access to arms.
   
   ## Usage
 
-  type index.js
+  Remove cat. Shut door when cat is outside door.
 
   ## License
-
-  This application is covered under the MIT license.
+//   ![badge](https://img.shields.io/badge/license-License N/A-brightgreen)
+// <br />
+  This application is covered under the License N/A.
   
   ## Contributing
 
-  none
+  No help.
   
   ## Tests  
 
-  in command line, type "npm run test"
+  npm run test
 
   ## Questions
 
-  If you have any questions, please contact amiracat at a@a.com.
+  If you have any questions, please contact amiracat at why@cat.com.
 
   Thank you.
   

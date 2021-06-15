@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const generate = require('./utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 //const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -44,7 +44,7 @@ const questions = [{
     type: 'list',
     name: 'license',
     message: 'What license does your project use?',
-    choices: ["MIT", "GNU General Public", "ISC", "Apache", "None"],
+    choices: ["MIT License", "GNU license", "ISC license", "Apache license", "License N/A"],
   },
   {
     type: 'input',
@@ -63,7 +63,7 @@ const questions = [{
 inquirer
   .prompt(questions)
   .then(function (data) {
-    fs.writeFile("README.md", generate(data), function (err) {
+    fs.writeFile("README.md", generateMarkdown(data), function (err) {
       if (err) {
         throw err;
       };
