@@ -1,18 +1,32 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// function renderLicenseBadge(license) {
+//   if (data.license === "MIT") {
+//     data.badge = "https://img.shields.io/badge/License-MIT-yellow.svg"
+//   } else if 
+//     (data.license = "Apache") {
+//       data.badge = "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
+//     }
+//    else if
+//    (data.license = "GNU GPL") {
+//     data.badge = "https://img.shields.io/badge/License-GPLv3-blue.svg"
+//   }
+//   else {
+//     return(null)
+//   };
+// };
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (data.license === "MIT") {
-    data.badge = `License-MIT-yellow`
-  } else if 
-    (data.license === "Apache") {
-      data.badge = `License-Apache%202.0-blue`
-    }
-   else {
-    data.badge = `License-ISC-blue`
+    data.badge = "https://img.shields.io/badge/License-MIT-yellow.svg"
+  } else if (data.license = "Apache") {
+    data.badge = "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
+  } else if (data.license = "GNU GPL") {
+    data.badge = "https://img.shields.io/badge/License-GPLv3-blue.svg"
+  } else {
+    return (null)
   };
 };
 
@@ -29,7 +43,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+//function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -38,7 +52,7 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
-  ![](https://img.shields.io/badge/${data.badge}.svg)
+  ![](${data.badge})
 
   ## Table of Contents
 
@@ -82,5 +96,8 @@ function generateMarkdown(data) {
   Thank you.
   `;
 };
+
+//renderLicenseBadge();
+renderLicenseLink(license);
 
 module.exports = generateMarkdown;

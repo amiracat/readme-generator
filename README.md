@@ -1,9 +1,9 @@
 
-  # Amira
+  # RMG
 
   ## Description
-  Coding
-  ![](https://img.shields.io/badge/undefined.svg)
+  RMG command line amazing tool
+  ![](undefined)
 
   ## Table of Contents
 
@@ -22,11 +22,11 @@
 
   ## Installation
 
-  Use brain
+  clone repo, type node index.js
   
   ## Usage
 
-  Heavily use brain
+  type index.js
 
   ## License
 
@@ -34,15 +34,15 @@
   
   ## Contributing
 
-  all loved ones
+  none
   
   ## Tests  
 
-  So much
+  in command line, type "npm run test"
 
   ## Questions
 
-  If you have any questions, please contact amiracat at amira@amira.com.
+  If you have any questions, please contact amiracat at a@a.com.
 
   Thank you.
   

@@ -61,16 +61,15 @@ const questions = [{
 // Create a function to write README file
 
 inquirer
-    .prompt(questions)
-    .then(function(data) {
-      fs.writeFile("README.md", generate(data), function(err) {
-            if (err) {
-              throw err;
-            };
-    
-            console.log("New README file created with success!");
-          });
-        });
+  .prompt(questions)
+  .then(function (data) {
+    fs.writeFile("README.md", generate(data), function (err) {
+      if (err) {
+        throw err;
+      };
+      console.log("New README file created with success!");
+    });
+  });
 
 // const init = () => {
 //   promptUser()
@@ -79,17 +78,14 @@ inquirer
 //     .catch((err) => console.error(err));
 // };
 
-
-
-
 // initialize app
 function init() {
-    // prompt(questions).then(answers => {
-    //   const response = generateMarkdown(answers); 
-    //   console.log(answers);
-    // });
-  };
+  // prompt(questions).then(answers => {
+  //   const response = generateMarkdown(answers); 
+  //   console.log(answers);
+  // });
+};
 
 
-    // // Function call to initialize app
-    init();
+// // Function call to initialize app
+init();
