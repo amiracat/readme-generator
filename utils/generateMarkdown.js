@@ -21,25 +21,14 @@
 function renderLicenseLink(license) {
   if (data.license === "MIT") {
     data.badge = "https://img.shields.io/badge/License-MIT-yellow.svg"
-  } else if (data.license = "Apache") {
-    data.badge = "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
   } else if (data.license = "GNU GPL") {
     data.badge = "https://img.shields.io/badge/License-GPLv3-blue.svg"
+  } else if (data.license = "ISC") {
+    data.badge = "https://img.shields.io/badge/License-ISC-blue.svg"
   } else {
     return (null)
   };
 };
-
-
-// MIT: 
-//"https://img.shields.io/badge/License-MIT-yellow.svg"
-//GNU GPL: 
-//"https://img.shields.io/badge/License-GPLv3-blue.svg"
-// ISC: 
-//"https://img.shields.io/badge/License-ISC-blue.svg"
-// Apache 2.0: 
-//"https://img.shields.io/badge/License-Apache%202.0-blue.svg"
-
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -52,7 +41,8 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
-  ![badge](${data.badge})
+
+  ![badge](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
   ## Table of Contents
 
@@ -78,9 +68,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-//   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
-// <br />
-  This application is covered under the ${data.license}.
+  License used: ${data.license}.
   
   ## Contributing
 

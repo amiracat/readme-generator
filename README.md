@@ -1,10 +1,10 @@
 
-  # Coco Generator
+  # README Generator
 
   ## Description
-  sleeping cat makes working difficult
-  
-  ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+  A node.js application that uses command line prompts to create a professional README.md file for any project.
+
+  ![badge](https://img.shields.io/badge/License-ISC-blue.svg)
 
   ## Table of Contents
 
@@ -23,28 +23,26 @@
 
   ## Installation
 
-  remove cat from lap to have better access to arms.
+  clone this repository, then install npm 
   
   ## Usage
 
-  Remove cat. Shut door when cat is outside door.
+  in the command line, use node index.js
 
   ## License
-//   ![badge](https://img.shields.io/badge/license-License N/A-brightgreen)
-// <br />
-  This application is covered under the License N/A.
+  License used: ISC.
   
   ## Contributing
 
-  No help.
+  None
   
   ## Tests  
 
-  npm run test
+  npm run tests
 
   ## Questions
 
-  If you have any questions, please contact amiracat at why@cat.com.
+  If you have any questions, please contact amiracat at amiraholden@gmail.com.
 
   Thank you.
   
